@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>For me</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+    <body>
+    <section class="sub-header">
+         <nav>
+            <a href="index.html"><img src="Image/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Course</a></li>
+                    <li><a href="">blog</a></li>
+                    <li><a href="">contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our courses</h1>
+    </section>
+<!------------------Course------------------->
+<section class="course">
+    <h1>Our Courses</h1>
+    <p>Our courses are designed to help you find the best product. We offer a wide range of products and have a team of experts to assist you in making the right choice.</p>
+    
+    <div class="row">
+        <div class="course-col">
+            <h3>Product 1</h3>
+            <p>Our courses are designed to help you to find the best product for you. We have a wide range of products that you can choose from. We have a team of experts that will help you to find the best product for you. We have a wide range of products that you can choose from. We have a team of experts that will help you to find the best product for you.</p>
+        </div>
+        <div class="course-col">
+            <h3>Product 2</h3>
+            <p>Our courses are designed to help you to find the best product for you. We have a wide range of products that you can choose from. We have a team of experts that will help you to find the best product for you. We have a wide range of products that you can choose from. We have a team of experts that will help you to find the best product for you.</p>
+        </div>
+        <div class="course-col">
+            <h3>Product 3</h3>
+            <p>Our courses are designed to help you to find the best product for you. We have a wide range of products that you can choose from. We have a team of experts that will help you to find the best product for you. We have a wide range of products that you can choose from. We have a team of experts that will help you to find the best product for you.</p>
+        </div>
+    </div>
+</section>
+<!------------------facilities------------------->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Our facilities are designed to help you find the best product. We offer a wide range of products and have a team of experts to assist you in making the right choice.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="Image/library.png">
+            <h3>World Class Library</h3>
+            <p>Our library is equipped with all the latest books and journals that will help you in your studies.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="Image/basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>We have the largest play ground where you can play your favorite sports. </p>
+        </div>
+        <div class="facilities-col">
+            <img src="Image/cafeteria.png">
+            <h3>Tasty Food</h3>
+            <p>We have a canteen which offers a wide variety of tasty and healthy food.</p>
+        </div>
+    </div>
+</section>
+
+<!------------- footer ------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Our courses are designed </p>
+    <div class="icon">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i></p>
+</section>
+
+
+<!---------JavaScript------------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    </body>
+</html>

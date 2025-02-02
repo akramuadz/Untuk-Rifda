@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>For me</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+    <body>
+    <section class="sub-header">
+         <nav>
+            <a href="index.html"><img src="pipi/logop.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About us</h1>
+    </section>
+<!------------------about us content------------------->
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Cerita Kita</h1>
+            <p>Kisah Masih berlangsung saat ini</p>
+            <a href="https://www.instagram.com/rada_keram/?utm_source=ig_web_button_share_sheet" class="hero-btn red-btn">Read More</a>
+        </div>
+        <div class="about-col">
+            <img src="Image/about.jpg">
+        </div>
+    </div>
+
+<!------------- footer ------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Our courses are designed </p>
+    <div class="icon">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i></p>
+</section>
+
+
+<!---------JavaScript------------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    </body>
+</html>
