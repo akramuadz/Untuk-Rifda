@@ -5,7 +5,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(pipi/bannerp.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(bannerp.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -267,7 +267,7 @@ h3{
 .cta {
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(pipi/aquarium1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(aquarium1.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -311,7 +311,7 @@ h3{
 .sub-header{
     width: 100%;
     height: 50vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(pipi/karoeke\ cantik.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(karoeke\ cantik.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
